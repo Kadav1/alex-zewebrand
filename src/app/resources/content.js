@@ -1,19 +1,19 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Alex',
+    lastName:  'Zewebrand',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Graphic Designer & Web Developer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Europe/Stockholm',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Swedish']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
-    display: true,
+    display: false,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
     description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
 }
@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>I'm Alexander, a Designer, Painter, Developer, Graffiti Artist.   </>
 }
 
 const about = {
@@ -69,10 +69,10 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: `I am a versatile professional with a passion for creativity and technology. My journey has taken me from being a graffiti artist to a graphic designer, and now a web developer. Each role has allowed me to express my creativity in unique ways and develop a diverse skill set that I bring to every project.`
     },
     work: {
-        display: true, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
@@ -109,13 +109,9 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Fully Self-Taught',
+                description: <></>,
             },
-            {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
-            }
         ]
     },
     technical: {
@@ -123,8 +119,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Photoshop',
+                description: <></>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
