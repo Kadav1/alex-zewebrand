@@ -1,4 +1,4 @@
-const baseURL = 'demo.magic-portfolio.com'
+const baseURL = 'alexzewebrand.com'
 
 // Enable localization
 const i18n = false;
