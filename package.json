@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
-    "next/mdx": "^14.2.23",
+    "@next/mdx": "^14.2.23",
     "@once-ui-system/magic-portfolio": "file:",
     "classnames": "^2.5.1",
     "cookie": "^1.0.2",
