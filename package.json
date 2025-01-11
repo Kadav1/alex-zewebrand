@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
-    "@mdx-js/loader": "^3.1.0",
-    "@next/mdx": "^14.2.23",
+    "next/mdx": "^14.2.23",
     "@once-ui-system/magic-portfolio": "file:",
     "classnames": "^2.5.1",
     "cookie": "^1.0.2",
@@ -38,6 +37,7 @@
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
     "@csstools/postcss-global-data": "^2.1.1",
+    "@mdx-js/loader": "^3.1.0",
     "@types/cookie": "^0.6.0",
     "@types/node": "^20",
     "@types/react": "^18",
